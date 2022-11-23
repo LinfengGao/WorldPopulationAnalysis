@@ -6,6 +6,28 @@
     <Name>WorldPopulationAnalysis.database</Name>
     <FullPath>WorldPopulationAnalysis.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Project DB.cube</Name>
+      <FullPath>Project DB.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Project DB.partitions</Name>
+          <FullPath>Project DB.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Contient.dim</Name>
+      <FullPath>Contient.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Growth Rate.dim</Name>
+      <FullPath>Growth Rate.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
   <DataSources>
     <ProjectItem>
       <Name>Project DB.ds</Name>

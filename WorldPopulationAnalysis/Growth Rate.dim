@@ -1,0 +1,218 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="599efb7a-06b4-4137-9f4b-86cbc334764d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Growth Rate</ID>
+  <Name>Growth Rate</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="d9967d33-94e7-41b3-9f83-ccd3a9b1a237">
+    <DataSourceViewID>Project DB</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="547c2248-c354-493b-9af6-9fde99b4f19f">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="cfa7b517-4fae-4c93-8100-6c6b5c7da8cf">
+      <ID>Rank Id</ID>
+      <Name>Rank Id</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="931d0522-bbf6-4280-99de-66f931666b1c">
+          <DataType>Double</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8c129ead-157c-41bc-92d5-a4a24543ed3c">
+            <TableID>dbo_growth_rate_x0024_</TableID>
+            <ColumnID>Rank_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="5bc59dbf-efdd-4c5d-a9e4-cb10fb562b4e">
+          <AttributeID>2020-2022</AttributeID>
+          <Name>2020-2022</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="068e6a67-0573-4119-a333-ea12ad727836">
+          <AttributeID>2015-2020</AttributeID>
+          <Name>2015-2020</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ad5773c4-9e57-4cbe-805a-e085971cbeb8">
+          <AttributeID>2010-2015</AttributeID>
+          <Name>2010-2015</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="89ab9ae0-8414-483c-82c0-7b90c878627d">
+          <AttributeID>2000-2010</AttributeID>
+          <Name>2000-2010</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="de9bb9a0-4858-413a-ba52-78075967a99d">
+          <AttributeID>1990-2000</AttributeID>
+          <Name>1990-2000</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e6ba700c-78ec-4514-8e57-994a74ab90cf">
+          <AttributeID>1980-1990</AttributeID>
+          <Name>1980-1990</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="cc7bda50-348b-400c-a66c-528087b0dcce">
+          <AttributeID>1970-1980</AttributeID>
+          <Name>1970-1980</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2adea667-d815-4b68-b50d-553786d18ddd">
+      <ID>2020-2022</ID>
+      <Name>2020-2022</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d1ee7ef1-0dd6-4a05-9196-d743f1a0fce2">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d7dab24a-4eb1-461d-8121-dc5cffe6bddf">
+            <TableID>dbo_growth_rate_x0024_</TableID>
+            <ColumnID>_x0032_020-2022</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5327fd7c-0703-4f6d-a0ea-b2055194b392">
+      <ID>2015-2020</ID>
+      <Name>2015-2020</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8eab37d6-6995-48b5-941c-c527de8e1261">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a1178f16-5670-4d02-b4a1-828cee5e8e92">
+            <TableID>dbo_growth_rate_x0024_</TableID>
+            <ColumnID>_x0032_015-2020</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5dc6360f-f8d9-4ac1-a6a0-9330d6eb1f36">
+      <ID>2010-2015</ID>
+      <Name>2010-2015</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a4931b7b-de26-46b8-b04c-13a0df879497">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8acea82c-e407-4588-a8f2-e109b5ccd457">
+            <TableID>dbo_growth_rate_x0024_</TableID>
+            <ColumnID>_x0032_010-2015</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c36503b5-721b-4a89-bd99-89e857164b2d">
+      <ID>2000-2010</ID>
+      <Name>2000-2010</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="65102a83-2f4d-4497-a31c-a1cc4a376184">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9633130d-0f57-41d5-89ec-0f2f16161ad9">
+            <TableID>dbo_growth_rate_x0024_</TableID>
+            <ColumnID>_x0032_000-2010</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ba655a9e-03c0-40a8-b15f-6547d93c1d2f">
+      <ID>1990-2000</ID>
+      <Name>1990-2000</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="04c886a7-ebfa-4904-9694-d11db53f942d">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6bb12087-57c9-4b41-b561-2a604cca2132">
+            <TableID>dbo_growth_rate_x0024_</TableID>
+            <ColumnID>_x0031_990-2000</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ec7f3e99-1087-4961-9a74-e36d7bfd7d61">
+      <ID>1980-1990</ID>
+      <Name>1980-1990</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6ff4327b-02f8-49e1-8e3c-6cc55bd12852">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e038fce4-2e0b-4a40-b7a0-39471daf690e">
+            <TableID>dbo_growth_rate_x0024_</TableID>
+            <ColumnID>_x0031_980-1990</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="91c59d0f-9c21-47d7-9959-8c316426369a">
+      <ID>1970-1980</ID>
+      <Name>1970-1980</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4bb2baa8-fcc3-45e3-8cdf-3a21126cadaa">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ddc8c074-243d-435c-b947-b315021e7ff3">
+            <TableID>dbo_growth_rate_x0024_</TableID>
+            <ColumnID>_x0031_970-1980</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
