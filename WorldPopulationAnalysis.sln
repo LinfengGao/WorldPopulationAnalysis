@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "WorldPopulationAnalysis", "WorldPopulationAnalysis\WorldPopulationAnalysis.dwproj", "{63E55845-E7BB-47AF-AEB6-28009D1206BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63E55845-E7BB-47AF-AEB6-28009D1206BD}.Development|Default.ActiveCfg = Development
+		{63E55845-E7BB-47AF-AEB6-28009D1206BD}.Development|Default.Build.0 = Development
+		{63E55845-E7BB-47AF-AEB6-28009D1206BD}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F327FD9D-2408-4042-817A-D93A0105CC32}
+	EndGlobalSection
+EndGlobal
