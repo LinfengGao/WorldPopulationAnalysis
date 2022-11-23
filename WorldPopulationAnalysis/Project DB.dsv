@@ -1,0 +1,204 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="dec65e33-3952-4a54-b0f0-0605576f54cf" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Project DB</ID>
+  <Name>Project DB</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="6" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-7902" scrolltop="-863" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="25548" y="11705" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="018600009001905f010004cbcecce5" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="BaseInfo" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3598" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e00000e0e00003b0d0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_base_info$" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Contient" left="6018" top="899" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3260" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000bc0c000034060000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_continent$" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="GrowthRate" left="319" top="5787" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="3747" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000a30e0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_growth_rate$" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="3318" top="1294" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_base_info$_continent$]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="12" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="6018" y="1693" />
+                    <point x="3618" y="1693" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="1420" top="3087" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_base_info$_growth_rate$]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="1" sourceattachpoint="4" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="1819" y="5787" />
+                    <point x="1819" y="3387" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>-7902</DiagramViewPortLeft>
+            <DiagramViewPortTop>-863</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Project DB</DataSourceID>
+  <Schema>
+    <xs:schema id="Project_x0020_DB" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Project_x0020_DB" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="49754600-e607-403d-8fa1-fd400bf5f21c">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_base_info_x0024_" msprop:design-time-name="07d5c807-28ae-40bd-93c7-c790a49c2453" msprop:FriendlyName="BaseInfo" msprop:DbSchemaName="dbo" msprop:DbTableName="base_info$" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Country_x002F_Territory" msprop:design-time-name="524efd75-fe11-414f-b59f-98865fdf143a" msprop:DbColumnName="Country/Territory" msprop:FriendlyName="Country/Territory">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Rank_id" msprop:design-time-name="1b206696-2706-4e5d-b5a8-d282b761d451" msprop:DbColumnName="Rank_id" msprop:FriendlyName="Rank_id" type="xs:double" minOccurs="0" />
+                  <xs:element name="continent_id" msprop:design-time-name="4e105bc8-60b3-4509-ab9e-6ba4e328f188" msprop:DbColumnName="continent_id" msprop:FriendlyName="continent_id" type="xs:double" minOccurs="0" />
+                  <xs:element name="Growth_x0020_Rate" msprop:design-time-name="6ea02af0-17df-4bb5-b7db-e8a4d2524996" msprop:DbColumnName="Growth Rate" msprop:FriendlyName="Growth Rate" type="xs:double" minOccurs="0" />
+                  <xs:element name="_x0032_022_x0020_Population" msprop:design-time-name="96adc867-7f86-42b7-abaf-38258ae26568" msprop:DbColumnName="2022 Population" msprop:FriendlyName="2022 Population" type="xs:double" minOccurs="0" />
+                  <xs:element name="Density_x0020__x0028_per_x0020_km_x005E_2_x0029_" msprop:design-time-name="74ed6b0f-1ee6-43f0-9bae-f260d5c50d15" msprop:DbColumnName="Density (per km^2)" msprop:FriendlyName="Density (per km^2)" type="xs:double" minOccurs="0" />
+                  <xs:element name="Area_x0020__x0028_km_x005E_2_x0029_" msprop:design-time-name="1e851929-5568-4dbf-9137-3640c14a09ac" msprop:DbColumnName="Area (km^2)" msprop:FriendlyName="Area (km^2)" type="xs:double" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_continent_x0024_" msprop:design-time-name="c6c0884b-c96b-4ccb-9b73-21c590dd5f8f" msprop:FriendlyName="Contient" msprop:DbSchemaName="dbo" msprop:DbTableName="continent$" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="continent_id" msprop:design-time-name="613814c9-4035-4fc8-8a73-177a57bd2313" msprop:DbColumnName="continent_id" msprop:FriendlyName="continent_id" type="xs:double" />
+                  <xs:element name="Continent_name" msprop:design-time-name="f58f9b1e-28ae-483e-8727-9479e99e9271" msprop:DbColumnName="Continent_name" msprop:FriendlyName="Continent_name" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_growth_rate_x0024_" msprop:design-time-name="2fea3ee6-8310-4d70-bf40-ed9e73618133" msprop:FriendlyName="GrowthRate" msprop:DbSchemaName="dbo" msprop:DbTableName="growth_rate$" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Rank_id" msprop:design-time-name="f66714e3-f475-4b3c-a06a-04cd80383c58" msprop:DbColumnName="Rank_id" msprop:FriendlyName="Rank_id" type="xs:double" />
+                  <xs:element name="_x0032_020-2022" msprop:design-time-name="ce24f960-14d2-42aa-a8c7-cabfad185fe4" msprop:DbColumnName="2020-2022" msprop:FriendlyName="2020-2022" type="xs:double" minOccurs="0" />
+                  <xs:element name="_x0032_015-2020" msprop:design-time-name="bbfa9cf1-7089-46f5-9c20-f1acad3118f2" msprop:DbColumnName="2015-2020" msprop:FriendlyName="2015-2020" type="xs:double" minOccurs="0" />
+                  <xs:element name="_x0032_010-2015" msprop:design-time-name="94984863-ea9c-4992-ad5b-1978fbf41bf9" msprop:DbColumnName="2010-2015" msprop:FriendlyName="2010-2015" type="xs:double" minOccurs="0" />
+                  <xs:element name="_x0032_000-2010" msprop:design-time-name="281b943f-365a-4582-b46f-a05de44af1c8" msprop:DbColumnName="2000-2010" msprop:FriendlyName="2000-2010" type="xs:double" minOccurs="0" />
+                  <xs:element name="_x0031_990-2000" msprop:design-time-name="4784bc34-1d88-48ad-a3e7-8d1c18d34cdc" msprop:DbColumnName="1990-2000" msprop:FriendlyName="1990-2000" type="xs:double" minOccurs="0" />
+                  <xs:element name="_x0031_980-1990" msprop:design-time-name="1d67f1d8-50fa-4194-9741-2143f9b4e324" msprop:DbColumnName="1980-1990" msprop:FriendlyName="1980-1990" type="xs:double" minOccurs="0" />
+                  <xs:element name="_x0031_970-1980" msprop:design-time-name="e9831f11-4ad3-45e3-9f91-e6e7f9c0e33f" msprop:DbColumnName="1970-1980" msprop:FriendlyName="1970-1980" type="xs:double" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_base_info_x0024_" />
+          <xs:field xpath="Country_x002F_Territory" />
+        </xs:unique>
+        <xs:unique name="dbo_continent_x0024__Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_continent_x0024_" />
+          <xs:field xpath="continent_id" />
+        </xs:unique>
+        <xs:unique name="dbo_growth_rate_x0024__Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_growth_rate_x0024_" />
+          <xs:field xpath="Rank_id" />
+        </xs:unique>
+        <xs:keyref name="FK_base_info_x0024__growth_rate_x0024_" refer="dbo_growth_rate_x0024__Constraint1">
+          <xs:selector xpath=".//dbo_base_info_x0024_" />
+          <xs:field xpath="Rank_id" />
+        </xs:keyref>
+        <xs:keyref name="FK_base_info_x0024__continent_x0024_" refer="dbo_continent_x0024__Constraint1">
+          <xs:selector xpath=".//dbo_base_info_x0024_" />
+          <xs:field xpath="continent_id" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Project_x0020_DB xmlns="" />
+  </Schema>
+</DataSourceView>

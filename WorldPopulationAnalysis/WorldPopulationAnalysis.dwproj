@@ -6,10 +6,37 @@
     <Name>WorldPopulationAnalysis.database</Name>
     <FullPath>WorldPopulationAnalysis.database</FullPath>
   </Database>
+  <DataSources>
+    <ProjectItem>
+      <Name>Project DB.ds</Name>
+      <FullPath>Project DB.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>Project DB.dsv</Name>
+      <FullPath>Project DB.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
-      <Options />
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>Project DB</Id>
+            <Name>Project DB</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=localhost;Integrated Security=SSPI;Initial Catalog=projectDB</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>Project DB</Id>
+            <Name>Project DB</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
     </Configuration>
   </Configurations>
 </Project>
